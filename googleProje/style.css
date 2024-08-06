@@ -1,0 +1,160 @@
+
+            #ustsagmenu a{
+                text-decoration: none;
+                color: black;
+                font-size: 15px;
+            }
+
+            #ustsagmenu{
+                margin-right: 30px;
+                margin-top: 14px;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;               
+            }
+
+            #ustsagmenu a:hover{ 
+                text-decoration: underline;
+            }
+
+            #googleuygulama{
+                width: 25px;
+                height: 25px;
+                padding:10px;               
+            }
+
+            .oturumac{
+                background-color: #1a73e8;
+                color: white;
+                border-radius: 5px;
+                width: 100px;
+                height: 30px;
+                border-width: 0px;
+            }
+
+            .oturumac:hover {
+                background-color: #4285f4;
+            }
+
+            #toplam{  
+                margin-top: 90px;
+            } 
+
+            #aramayer{
+                position: relative;
+                left: 400px;
+                top: 50px;
+                font-size: 16px;
+                width: 700px;
+                height: 35px;
+                border: 1px solid #ddd;
+                border-radius: 25px;
+                padding-left: 50px;
+    
+                outline: none;                           
+            }
+
+            #aramayer:hover{
+                box-shadow:1px 1px 5px gray ; 
+            }
+
+            .googlelogo{
+                text-align: center;
+            }
+
+            #simgeler{
+                position: relative;
+                top: 23px;
+                left: 1050px;       
+            }
+
+            #buyutec{
+                width: 20px;
+                opacity: 0.4;
+                position: relative;
+                right: 280px;
+                top: 52px;
+            }
+            
+            #buttons{
+                position: relative;
+                top: 60px;
+                left: 600px;                                              
+            }
+
+            #buttonsansli{
+                border-radius: 4px;
+                border: 1px solid transparent;
+                padding: 9px 15px;
+                font-size: 14px;
+            }
+
+            #buttonara{
+                border-radius: 4px;
+                border: 1px solid transparent;
+                padding: 9px 15px;
+                font-size: 14px;
+            }
+
+            #buttonsansli:hover {
+                box-shadow: 1px 1px 1px 1px #ddd;
+            }
+
+            #buttonara:hover {
+                box-shadow:1px 1px 1px 1px #ddd;
+            }
+            
+            #footer{
+                background-color: #f2f2f2;
+                position: fixed;
+                bottom:0px;
+                width: 1530px;
+                height: 110px;
+                display: flex;
+                border-top: 1px solid #ddd;
+            }
+
+            #ulke{
+                font-size: 15px;
+                padding-left: 29px;
+                color: #5f6368;
+                border: 1px solid #eee; /*bu özelliğe gerek olmayabilir*/               
+
+            }
+
+            .altmenu{
+                position: relative;
+                right:65px;
+                top: 80px;
+                padding: 5px 11px;          
+                flex: 1;              
+            }
+
+            .altmenu a{
+                text-decoration: none;
+                color: #5f6368;
+                padding: 12px 10px;
+                font-size: 15px;   
+                                       
+            }
+            .altmenu :hover{
+                text-decoration: underline;
+                                   
+            }
+            .altbilgi{
+                position: relative;
+                right:15px;
+                top: 80px;
+                padding: 5px 11px;                        
+            }
+
+            .altbilgi a{
+                text-decoration: none;
+                color: #5f6368;
+                padding: 12px 10px ;
+                font-size: 15px;
+            }
+
+            .altbilgi :hover{
+                text-decoration: underline;
+            }
